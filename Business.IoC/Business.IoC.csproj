@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.0" />
+    <PackageReference Include="SimpleExceptionHandling" Version="1.1.0" />
+    <PackageReference Include="SimpleSOAPClient" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Contracts\Business.Contracts.csproj" />
+    <ProjectReference Include="..\Configurationsc\Configurations.csproj" />
+    <ProjectReference Include="..\UoW.Implementation\UoW.Implementation.csproj" />
+    <ProjectReference Include="..\UoW\UoW.csproj" />
+  </ItemGroup>
+
+</Project>

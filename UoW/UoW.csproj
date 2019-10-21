@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+      <Version>2019.11.0</Version>
+      <Authors>Rúben Ribeiro</Authors>
+      <Company>It4Noobs</Company>
+      <Copyright>Copyright It4Noobs - Software Protection</Copyright>
+      <Description>Sistema de Gestão de Propriedades</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimplePersistence.UoW" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+</Project>

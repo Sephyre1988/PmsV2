@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>2019.11.0</Version>
+    <Authors>Rúben Ribeiro</Authors>
+    <Company>It4Noobs</Company>
+    <Copyright>Copyright It4Noobs - Software Protection</Copyright>
+    <Description>Sistema de Gestão de Propriedades</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimplePersistence.Model" Version="3.3.0" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>
