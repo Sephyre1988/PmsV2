@@ -12,7 +12,7 @@
     <PackageReference Include="Dapper" Version="2.0.30" />
     <PackageReference Include="FluentNHibernate" Version="2.1.2" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="NHibernate" Version="5.2.6" />
     <PackageReference Include="SimplePersistence.UoW.NH" Version="3.3.0" />
   </ItemGroup>
